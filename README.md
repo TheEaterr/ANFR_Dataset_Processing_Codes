@@ -1,7 +1,5 @@
-# gr-owc
-GNURadio out-ot-tree (OOT) module for optical wireless communications. Contact person for the module is Dr. Michael Rahaim (<Michael.Rahaim@umb.edu>) from The Ubiquitous Communications and Networking (UCAN) Lab, University of Massachusetts, Boston.
-
-<a href="https://zenodo.org/badge/latestdoi/323626297"><img src="https://zenodo.org/badge/323626297.svg" alt="DOI"></a>
+# ANFR Dataset Processing - Source Code
+This repository contains the source code for data processing of the ANFR dataset. The results of this source code are described in the paper (submitted for review at ICC2023) titled as "The Long Road to Sobriety: Estimating the Operational Power Consumption of Cellular Base Stations in France". The contacts for the project include Arsalan Ahmed (<arsalanqasimahmed@gmail.com>) and Dr. Marceau Coupechoux from Télécom Paris.
 
 
 This installation guide assumes that GNU Radio has been installed using PyBOMBS. Also, please note that gr-owc is currently only compatible with GNURadio 3.8 version.
