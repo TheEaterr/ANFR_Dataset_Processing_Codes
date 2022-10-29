@@ -2,6 +2,9 @@
 This repository contains the source code for data processing of the ANFR dataset. The results of this source code are described in the paper (submitted for review at ICC2023) titled as **"The Long Road to Sobriety: Estimating the Operational Power Consumption of Cellular Base Stations in France"**. The contacts for the project include **Arsalan Ahmed** (<arsalanqasimahmed@gmail.com>) and **Dr. Marceau Coupechoux** (<marceau.coupechoux@telecom-paris.fr>) from Télécom Paris.
 
 
+For details regarding the dataset and data processing, please consult the included PDF file.
+
+
 This installation guide assumes that GNU Radio has been installed using PyBOMBS. Also, please note that gr-owc is currently only compatible with GNURadio 3.8 version.
 
 To download and install, follow the steps below:
