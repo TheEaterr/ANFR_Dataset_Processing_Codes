@@ -5,38 +5,11 @@ This repository contains the source code for data processing of the ANFR dataset
 For details regarding the dataset and data processing, please consult the included PDF file.
 
 
-This installation guide assumes that GNU Radio has been installed using PyBOMBS. Also, please note that gr-owc is currently only compatible with GNURadio 3.8 version.
+Before running the source code, the following steps are to be completed:
 
-To download and install, follow the steps below:
+1-) Firstly, three new folders should be created within the code directory. The first should be named as "ANFR Dataset", the second should be "Pre-processed data" and the last one should be "Graphs".
 
-1-) First of all source the setup of your desired GNU Radio prefix in the terminal
+2-) Within the 'ANFR Dataset' folder, the entire ANFR dataset is to be placed. The dataset including the data and the reference files can be downloaded from the dataset website. The downloading process is tedious as the files for each month needs to be downloaded one by one.
 
-2-) Download this repository by cloning with git clone (url)
-
-3-) cd to the gr-owc directory
-
-4-) Create a build directory with 'mkdir build' and move into the directory with 'cd build/'
-
-5-) Run cmake (the path to the sourced GNU Radio installation would be found automatically): 'cmake ../'
-
-6-) Run 'make'
-
-7-) Test the build with 'make test' (shouldn't be any failures)
-
-8-) Install with 'make install'
-
-9-) Configure your linker/debugger with 'sudo ldconfig'
-
-10-) Open gnuradio-companion and you should find a module for gr-owc
-
-Alternatively, gr-owc can also be installed directly into the desired GNURadio prefix using PyBOMBS. For this, follow the steps below:
-
-1-) Configure PyBOMBS for default configuration with 'pybombs auto-config'
-
-2-) Point PyBOMBS to the recipes for installing OOT modules. As a default, you can use 'pybombs recipes add-defaults' (adds gr-recipes and gr-etcetra) 
-
-3-) cd into the desired GNURadio prefix folder
-
-4-) Install gr-owc using pybombs with 'pybombs install gr-owc' 
-
-5-) Open gnuradio-comapanion from that prefix and you should find a module for gr-owc
+3-) There are a few mistakes in the downloaded files from the ANFR website. Hence, for specific month's files, the following should be done manually:
+  -**April 2022**: In the folder name, 2023 should be changed to 2022.
