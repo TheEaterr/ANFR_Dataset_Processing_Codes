@@ -1,0 +1,5 @@
+*.txt
+ANFR Dataset
+Pre-processed data
+__pycache__ 
+Graphs
